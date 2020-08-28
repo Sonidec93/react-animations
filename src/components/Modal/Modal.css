@@ -13,12 +13,12 @@
 
 .Modal.open {
   /* display: block; */
-  animation: openModal 0.3s ease-out forwards; /* have to add forwards to the animation otherwise it goes back to the 0% state*/
+  animation: openModal 0.4s ease-out forwards; /* have to add forwards to the animation otherwise it goes back to the 0% state*/
 }
 
 .Modal.close {
   /* display: none; */
-  animation: closeModal 0.3s ease-out forwards;
+  animation: closeModal 1s ease-out forwards;
 }
 
 @keyframes openModal {
@@ -56,3 +56,5 @@
     z-index: -100;
   }
 }
+
+
